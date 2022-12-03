@@ -54,7 +54,7 @@ router.get('/orders', listOrders);
 router.post('/orders', createOrders);
 
 //change order status
-router.patch('/orders/:orderID', changeOrderStatus);
+router.patch('/orders/:orderId', changeOrderStatus);
 
 //delete/cancel order
 router.delete('/orders/:orderID', cancelOrder);
