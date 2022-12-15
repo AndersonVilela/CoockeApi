@@ -4,12 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && tsc",
+    "build": "tsc",
     "dev": "nodemon src/index.ts",
     "start": "node dist",
-    "ts.check": "tsc --project tsconfig.json",
-    "add-build": "git add dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Anderson Vilela",
   "license": "MIT",
@@ -30,5 +27,5 @@
     "mongodb": "^4.12.1",
     "mongoose": "^6.7.2",
     "multer": "^1.4.5-lts.1"
-  }
+    }
 }
