@@ -6,7 +6,9 @@
   "scripts": {
     "build": "tsc",
     "dev": "nodemon src/index.ts",
-    "start": "node dist"
+    "start": "vercel dev",
+    "deploy" : "vercel deploy --prod"
+
   },
   "author": "Anderson Vilela",
   "license": "MIT",
